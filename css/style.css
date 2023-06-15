@@ -16,16 +16,65 @@ ul{
 header{
     background-color: white;
 }
+h1 , .logo{
+    vertical-align: middle;
+} 
 h1{
     display: inline-block;
 }
 /* main */
 .conteiner-1{
-    border-bottom: 2px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 5px;
+}
+.bottone{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+.primo-b{
+    background-color: #779ef9;
+    color: white;
+}
+.secondo-b{
+    border: 1px solid darkgray;
+    background-color: white;
+    color: darkgray;
 }
 .conteiner-2{
     width: 50%;
     margin: 50px auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 5px;    
+}
+.conteiner-2 h2{
+    margin: 40px 0 15px;
+}
+.check{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #2cc6ab;
+    border-radius: 50px;
+    color: #2cc6ab;
+}
+.cross{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50px;
+    color: red;
+}
+li > * {
+    vertical-align: middle;
 }
